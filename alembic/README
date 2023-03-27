@@ -11,7 +11,8 @@ This is an example project that shows how to use FastAPI with SQLAlchemy and Ale
 │ └── alembic.ini
 ├── db
 │ ├── init.py
-│ └── models.py
+│ ├── models.py
+│ └── db.py
 ├── main.py
 └── requirements.txt
 
