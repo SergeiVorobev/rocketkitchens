@@ -1,0 +1,27 @@
+# FastAPI SQLAlchemy Alembic Example
+
+This is an example project that shows how to use FastAPI with SQLAlchemy and Alembic for database migrations.
+
+## Project Structure
+├── alembic
+│ ├── env.py
+│ ├── pycache
+│ ├── script.py.mako
+│ ├── versions
+│ └── alembic.ini
+├── db
+│ ├── init.py
+│ └── models.py
+├── main.py
+└── requirements.txt
+
+
+- `alembic/`: This directory contains the Alembic configuration and migration scripts.
+- `db/`: This directory contains the SQLAlchemy models and database session setup.
+- `main.py`: This is the main FastAPI application file.
+
+## Getting Started
+
+To get started with this project, you'll need to install the required packages:
+
+

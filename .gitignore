@@ -1,0 +1,22 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore database files
+db.sqlite3
+
+# Ignore alembic version files
+alembic/versions/*.pyc
+alembic/versions/*.pyo
+
+# Ignore virtual environment files
+myenv/
+venv/
+
+# Ignore project dependency files
+requirements.txt
+
+# Ignore other files
+*.log
+*.swp
+.DS_Store
